@@ -1,0 +1,125 @@
+body{
+    background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176));
+}
+#estruturaFormulario{
+    position: absolute;
+    top: 30px;
+    left: 32%;
+}
+fieldset{
+    background: linear-gradient(to right, rgb(89, 193, 115), rgb(161, 127, 224), rgb(93, 38, 193));
+    width: 450px;
+    height: 300px;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+#campoNome{
+    position: relative;
+    top: -2px;
+    border:2px solid white;
+    border-radius: 3px;
+    width: 300px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+#campoNome::placeholder{
+    color: rgb(185, 185, 185);
+    font-size: 14px;
+}
+#campoSenha{
+    position: relative;
+    top: -4px;
+    border:2px solid white;
+    border-radius: 3px;
+    width: 300px;
+    height: 20px;
+}
+#campoSenha::placeholder{
+   color: rgb(185, 185, 185);
+   font-family: 'Oswald', sans-serif;
+   font-size: 14px;
+}
+#opcoesSelect{
+position: relative;
+width: 100px;
+height: 30px;
+border-radius: 6px;
+font-family: 'Oswald', sans-serif;
+font-size: 15px;
+}
+.textoSenha{
+    position: relative;
+    top: 15px;
+}
+#idadeLabel{
+    position: relative;
+    top: 20px;
+}
+
+#primeiroInputRadio{
+    position: relative;
+    top: 20px;
+}
+
+#segundoInputRadio{
+    position: relative;
+    left: -190px;
+    top: 20px;
+}
+#marcadorIdade{
+    position: relative;
+    top: 30px;
+}
+
+
+#select{
+    position: relative;
+    top: 30px;
+}
+#conclusao{
+    position: relative;
+    top: 45px;
+}
+#opcaoCheck {
+    width:15px ;
+    height:15px ;
+}
+#botoes{
+    position: relative;
+    top: 60px;
+    left: 30%;
+   
+}
+#botaoLimpar{
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+#botaoEnviar{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    background-color:green;
+    color: white;
+    
+}
+h2,p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
